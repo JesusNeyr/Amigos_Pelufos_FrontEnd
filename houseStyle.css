@@ -1,0 +1,38 @@
+p {
+    font-size: 16px;
+    color: rgb(0, 0, 0); /* Azul */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.contenedor-flex-columnas {
+    display: flex; /* Convierte el contenedor en un contenedor flex */
+    flex-wrap: wrap; /* Permite que las columnas se envuelvan a la siguiente fila en pantallas pequeñas */
+    gap: 30px; /* Espacio entre las columnas */
+    max-width: 1000px; /* Ancho máximo para el contenedor */
+    margin: 0 auto; /* Centra el contenedor */
+    padding: 20px;
+    box-sizing: border-box; /* Asegura que el padding no añada ancho extra */
+}
+
+.columna {
+    flex: 1; /* Permite que las columnas crezcan y se encojan equitativamente */
+    min-width: 280px; /* Ancho mínimo para que cada columna no se haga demasiado pequeña */
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    box-sizing: border-box; /* Importante para el padding */
+}
+
+.columna h2 {
+    color: #292d31;
+    margin-top: 0;
+    font-size: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a:link {
+    color: #883b9a; /* Un color azul brillante */
+    text-decoration: none; /* Opcional: quita el subrayado por defecto */
+    font-weight: bold; /* Opcional: hace el texto más negrita */
+}
