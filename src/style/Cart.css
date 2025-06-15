@@ -1,0 +1,70 @@
+.carrito-container {
+  padding: 2rem;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.tabla-carrito {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1.5rem;
+}
+
+.tabla-carrito th,
+.tabla-carrito td {
+  padding: 0.75rem;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+.tabla-carrito td img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.tabla-carrito td span {
+  vertical-align: middle;
+}
+
+.cantidad-control {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.cantidad-control input {
+  width: 50px;
+  text-align: center;
+}
+
+.cantidad-control button {
+  width: 30px;
+  height: 30px;
+}
+
+.resumen-compra {
+  margin-top: 1.5rem;
+  background: #f8f8f8;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.envio-gratis {
+  color: green;
+  font-weight: bold;
+  display: block;
+  margin-top: 0.5rem;
+}
+
+.opciones-pago {
+  margin-top: 1rem;
+}
+
+.opciones-pago label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
